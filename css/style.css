@@ -103,3 +103,55 @@ span{
     font-size: .85rem;
     font-weight: 700;
 }
+
+
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops{
+    display: flex;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: .85rem;
+}
+
+.panel-deals{
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url(../images/hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+    
+}
+
+.hero-message a{
+    columns: #007185;
+}
